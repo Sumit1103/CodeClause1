@@ -1,0 +1,87 @@
+body {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #f09191;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #ebbe9b;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f56a6a;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #00000096;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li button {
+  padding: 8px 16px;
+  background-color: #fcb0b0;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #ec6060;
+}
